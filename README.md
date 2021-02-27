@@ -1,6 +1,6 @@
 # Tsinghua Yukuotang Autoplay
 
-This script can autoplay the course videos.
+This script can autoplay the course videos on [tsinghua.yuketang.cn](tsinghua.yuketang.cn).
 
 ## How to use?
 
