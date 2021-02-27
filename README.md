@@ -1,4 +1,4 @@
-# Tsinghua Yuketang Autoplay
+# Tsinghua Yukuotang Autoplay
 
 This script can autoplay the course videos.
 
