@@ -6,6 +6,8 @@
 // @author       You
 // @match        https://tsinghua.yuketang.cn/*/video/*
 // @match        http://tsinghua.yuketang.cn/*/video/*
+// @match        https://pro.yuketang.cn/v2/web/xcloud/video-student/*
+// @match        http://pro.yuketang.cn/v2/web/xcloud/video-student/*
 // @grant        none
 // ==/UserScript==
 
