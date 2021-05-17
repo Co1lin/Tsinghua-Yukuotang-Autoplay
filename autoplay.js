@@ -16,7 +16,7 @@
 
     console.log('Tampermonkey script started running!');
 
-    window.addEventListener('DOMContentLoaded', function (event) {
+    window.addEventListener('load', function (event) {
         console.log('DOM and resources fully loaded and parsed');
         setTimeout(mainFunc, 1000);
     }); // load or DOMContentLoaded (run at document-start!)
