@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tsinghua Yukuotang Autoplay
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  A script for JS practice purpose.
 // @author       You
 // @match        https://tsinghua.yuketang.cn/*/video/*
