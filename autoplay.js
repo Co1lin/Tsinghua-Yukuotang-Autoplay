@@ -18,7 +18,7 @@
 
     window.addEventListener('load', function (event) {
         console.log('DOM and resources fully loaded and parsed');
-        setTimeout(mainFunc, 1000);
+        setTimeout(mainFunc, 4000);
     }); // load or DOMContentLoaded (run at document-start!)
 
     let mainFunc = function () {
