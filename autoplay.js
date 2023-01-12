@@ -48,7 +48,7 @@
     let worker = function (video, process_span) {
         if (videoFinished(video) || videoFinished2(process_span)) {
             console.log('Video finished!');
-            window.location.href = nextURL();
+            window.location.href = nextURL(); // pass the id of page to stop at
         }
     };
 
@@ -60,9 +60,12 @@
         return process_span.innerText.substr(-4) === '100%';
     }
 
-    let nextURL = function() {
+    let nextURL = function(end_id) {
         let current_url = document.URL;
         let video_id = current_url.split('/').pop();
+        if (video_id === String(end_id)) {
+            window.close()
+        }
         current_url = current_url.slice(0, -video_id.length);
         return current_url + (parseInt(video_id) + 1);
     };
